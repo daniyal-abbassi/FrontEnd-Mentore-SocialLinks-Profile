@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 700;
+}
+body {
+    font-size: 14px;
+    text-align: center;
+    background-color: hsl(0, 0%, 8%);
+}
+#whole-page {
+    background-color: hsl(0, 0%, 12%);
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter';
+    font-weight: 600;
+}
+h3 {
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+p {
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+p a {
+    color: white;
+    text-decoration: none;
+}
+#git, #front-mentor, #LinkedIn, #Mastodon {
+    background-color: hsl(0, 0%, 20%);
+    margin: 2% 5%;
+    border-radius: 10px;
+}
+#Instagram {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+}
+#git:hover, #front-mentor:hover, #LinkedIn:hover, #Mastodon:hover, #Instagram:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+#git:hover a, #front-mentor:hover a, #LinkedIn:hover a, #Mastodon:hover a, #Instagram:hover a {
+    color: black;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+  h1 {
+    margin-top: 25px;
+  }
+  h3 {
+    margin-bottom: 18px;
+  }
+  #whole-page {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }  
+  #git, #front-mentor, #LinkedIn, #Mastodon {
+    margin: 3% 5%;
+    border-radius: 10px;
+}
+#Instagram {
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p {   
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+img {
+    width: 35%;
+    height: 35%;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+}
